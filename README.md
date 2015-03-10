@@ -23,7 +23,7 @@ And software:
 If you wire and burn everithing together you get simple wifi enabled fm radio. 
 
 For me this was just simple helo world for lua and html, so don't expect any futher improvments from me in near future. 
-If anyone is interested in further development this is just top of the todo list: 
+If anyone is interested in further development this is just top of the todo list, pull requests are welcome: 
 sw todo:
 
 -better user interface,
