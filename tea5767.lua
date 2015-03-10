@@ -68,6 +68,11 @@ srv:listen(80,function(conn)
 			  end
 			  set_freq(freq);
         end
+        _freq=tostring(freq);
+        
+        buf = buf.."Frequency:";
+        buf = buf.._freq;
+        buf = buf.."</p>";
 
         client:send(buf);
         client:close();
