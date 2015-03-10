@@ -5,12 +5,19 @@ Lua script implements i2c interface from esp8266 to tea5767, with webpage to cha
 
 All you need is: 
 -3.3V usb2ttl module to burn nodemcu and upload script,
+
 -tea5767 module,
+
 -any esp8266 module (esp-01 works just fine),
+
 And software:
+
 -Nodemcu firmware,
+
 -esptool,
+
 -esptool.py,
+
 -luatool.py,
 
 If you wire and burn everithing together you get simple wifi enabled fm radio. 
@@ -18,14 +25,23 @@ If you wire and burn everithing together you get simple wifi enabled fm radio.
 For me this was just simple helo world for lua and html and don't expect futher improvments from me. 
 If anyone is interested this is just top of the todo list: 
 sw todo:
+
 -better user interface,
+
 -search function,
+
 -memmory for channels,
+
 -...
+
 sw & hw todo:
+
 -manual control(gpio buttons),
+
 -oled display,
+
 -volume control,
+
 -...
 
 For any spare bitcoin change I might consider adding aditional functions: 
